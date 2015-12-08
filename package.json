@@ -1,0 +1,19 @@
+{
+  "name": "grouper",
+  "version": "0.0.1",
+  "description": "Create groups of people",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpadjen/grouper.git"
+  },
+  "author": "Tim Padjen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tpadjen/grouper/issues"
+  },
+  "homepage": "https://github.com/tpadjen/grouper#readme"
+}
