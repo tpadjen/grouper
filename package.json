@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/tpadjen/grouper/issues"
   },
-  "homepage": "https://github.com/tpadjen/grouper#readme"
+  "homepage": "https://github.com/tpadjen/grouper#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0"
+  }
 }
