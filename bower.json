@@ -1,0 +1,17 @@
+{
+  "name": "grouper",
+  "description": "Create groups of people",
+  "authors": [
+    "Tim Padjen"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tpadjen/grouper",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
