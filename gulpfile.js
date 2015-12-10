@@ -12,3 +12,11 @@ gulp.task('serve', function() {
 
   gulp.watch('app/*.html').on('change', browserSync.reload);
 });
+
+
+var shell = require('gulp-shell');
+
+gulp.task('e2e', 
+  shell.task(['protractor tests/protractor.conf.js'], {
+    ignoreErrors: true
+  }));
