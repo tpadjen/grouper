@@ -21,6 +21,5 @@
     "gulp": "^3.9.0"
   },
   "dependencies": {
-    "angular": "^1.4.8"
   }
 }
