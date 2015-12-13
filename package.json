@@ -4,7 +4,8 @@
   "description": "Create groups of people",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "e2e": "gulp e2e"
   },
   "repository": {
     "type": "git",
