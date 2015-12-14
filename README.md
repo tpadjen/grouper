@@ -8,7 +8,7 @@ $ npm test
 ```
 or
 ```bash
-$ karma start
+$ gulp unit
 ```
 
 E2E:

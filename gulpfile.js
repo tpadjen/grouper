@@ -16,7 +16,12 @@ gulp.task('serve', function() {
 
 var shell = require('gulp-shell');
 
-gulp.task('e2e', 
+gulp.task('unit',
+  shell.task(['karma start'], {
+    ignoreErrors: true
+  }));
+
+gulp.task('e2e',
   shell.task(['protractor tests/protractor.conf.js'], {
     ignoreErrors: true
   }));
