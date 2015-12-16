@@ -1,5 +1,7 @@
 # Grouper
 
+Create groups of people
+
 ## Testing
 
 Unit:
